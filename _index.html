@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+<div>
+    <h1 id="res"></h1>  
+    <hr>
+    <h2>Test passed!</2>  
+</div>
+
+<script type="text/javascript">
+    
+// get current URL
+$(document).ready(function(){
+    var pathname = window.location.href;
+    $("#res").html(pathname);
+});
+
+
+</script>
+</body>
+</html>
